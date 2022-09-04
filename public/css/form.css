@@ -1,0 +1,26 @@
+h1{
+    text-align:center;
+    margin-right: 100px;
+}
+.data_user {
+    width:50rem;
+    margin:0 auto;
+
+}
+.data_user label , input,select,#genre,button {
+    display:block;
+    width:70%;
+    } 
+.city_state{
+    display:flex;
+
+}
+#city_state{
+    width:35%;
+}
+label{
+    margin:1rem 0rem;
+}
+.create{
+    margin:3rem 0;
+}

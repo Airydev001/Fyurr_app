@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post a venue</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-header-list">
+        <ul>
+          <h2 class="logo"><a href="/">Fyyur</a></h2>
+
+          <li><a href="/venues">Venues</a></li>
+          <li><a href="/artists">Artists</a></li>
+          <li><a href="/shows">Shows</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <h1>List a new venue</h1>
+    <section class="data_user">
+      <form action="/createPost" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" />
+
+        <label for="name">City&State</label>
+        <div class="city_state">
+          <input
+            type="text"
+            name="city"
+            placeholder="City"
+            id="city_state"
+          /><select name="state" id="city_state">
+            <option value="AU" name="city">AU</option>
+          </select>
+        </div>
+        <label for="address">Address</label>
+        <input type="text" />
+        <label for="phoneNumber">PhoneNumber</label>
+        <input type="phoneNumber" name="PhoneNumber" id="PhoneNumber" />
+        <label for="genres">Genres</label>
+        <textarea name="genre" id="genre" cols="30" rows="10"></textarea>
+        <label for="Facebook_link">Facebook Link</label>
+        <input type="text" name="Facebook_link" />
+        <button type="submit" class="create">Create Venue</button>
+      </form>
+    </section>
+  </body>
+</html>

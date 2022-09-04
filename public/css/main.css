@@ -1,0 +1,89 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+      }
+      *html::before,
+      *html::after {
+        box-sizing: border-box;
+      }
+      header {
+        background: blueviolet;
+      }
+      h2 a{
+        text-decoration:none;
+        color:white;
+      }
+      .main-header-list {
+        width: 70rem;
+        margin: 0 auto;
+      }
+      .main-header-list ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0;
+        gap: 5px;
+      }
+  .logo{
+    margin-right:15em;
+    color:white;
+  }
+      .main-header-list li {
+        padding-right: 10px;
+        font-size: 1.7rem;
+        margin: 0.4em 0;
+        list-style: none;
+        text-decoration: none;
+        color: grey;
+      }
+      .main-header-list li a {
+        text-decoration: none;
+        color: white;
+        padding-right: 2rem;
+      }
+      .container-main {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 70rem;
+        gap: 30rem;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background: blueviolet;
+      }
+      .wrap-content h1 {
+        color: grey;
+      }
+      .button-topLevel {
+        margin-top: 2em;
+      }
+      button {
+        margin-right: 1.5rem;
+        margin-top: 1.5rem;
+        padding: 0.8rem;
+        border: none;
+        background-color: grey;
+      }
+      button:hover,
+      button:active {
+        color: white;
+        background-color: blueviolet;
+      }
+      button a {
+        text-decoration: none;
+        color: white;
+      }
+      
+  
+      .btn-lower {
+        margin-top: 10rem;
+      }
+      /**Designing the available data user*****/
+.data_user {
+  display:block;
+  width:100%;
+}      

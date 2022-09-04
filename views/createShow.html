@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post an Artist</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-header-list">
+        <ul>
+          <h2 class="logo"><a href="/">Fyyur</a></h2>
+
+          <li><a href="/venue/venues">Venues</a></li>
+          <li><a href="/artist/artists">Artists</a></li>
+          <li><a href="/artist/shows">Shows</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <h1>List a new Show</h1>
+    <section class="data_user">
+      <form action="/venue/createPost" method="post">
+        <label for="name">Artiste ID</label>
+        <input type="text" name="name" />
+
+        <label for="address">Venue ID</label>
+        <input type="text" />
+        <label for="phoneNumber">Start Time</label>
+        <input type="text" name="startTime" id="PhoneNumber" />
+
+        <button type="submit" class="create">Create Venue</button>
+      </form>
+    </section>
+  </body>
+</html>
